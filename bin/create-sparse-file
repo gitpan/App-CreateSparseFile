@@ -1,0 +1,90 @@
+#!perl
+
+# Note: This script is a CLI interface to Riap function /App/CreateSparseFile/create_sparse_file
+# and generated automatically using Dist::Zilla::Plugin::Rinci::ScriptFromFunc version 0.01
+
+our $DATE = '2014-10-11'; # DATE
+our $VERSION = '0.01'; # VERSION
+
+use 5.010001;
+use strict;
+use warnings;
+
+use Perinci::CmdLine::Any -prefer_lite=>1;
+
+Perinci::CmdLine::Any->new(
+    url => "/App/CreateSparseFile/create_sparse_file",
+)->run;
+
+# ABSTRACT: Create sparse file
+# PODNAME: create-sparse-file
+
+__END__
+
+=pod
+
+=encoding UTF-8
+
+=head1 NAME
+
+create-sparse-file - Create sparse file
+
+=head1 VERSION
+
+This document describes version 0.01 of create-sparse-file (from Perl distribution App-CreateSparseFile), released on 2014-10-11.
+
+=head1 SYNOPSIS
+
+Usage:
+
+ % create-sparse-file
+
+Examples:
+
+ TODO
+
+To see all options:
+
+ % create-sparse-file --help
+
+=head1 DESCRIPTION
+
+Sparse file is a file with a predefined size (sometimes large) but does not yet
+allocate all its (blank) data on disk. Sparse file is a feature of filesystem.
+
+I usually create sparse file when I want to create a large disk image but do not
+want to preallocate its data yet. Creating a sparse file should be virtually
+instantaneous.
+
+=head1 OPTIONS
+
+ TODO
+
+=head1 HOMEPAGE
+
+Please visit the project's homepage at L<https://metacpan.org/release/App-CreateSparseFile>.
+
+=head1 SOURCE
+
+Source repository is at L<https://github.com/perlancar/perl-App-CreateSparseFile>.
+
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website L<https://rt.cpan.org/Public/Dist/Display.html?Name=App-CreateSparseFile>
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
+
+=head1 AUTHOR
+
+perlancar <perlancar@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2014 by perlancar@cpan.org.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
