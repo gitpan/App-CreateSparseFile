@@ -1,13 +1,13 @@
 package App::CreateSparseFile;
 
-our $DATE = '2014-10-11'; # DATE
-our $VERSION = '0.01'; # VERSION
+our $DATE = '2014-12-05'; # DATE
+our $VERSION = '0.02'; # VERSION
 
 use 5.010001;
 use strict;
 use warnings;
 
-use SHARYANTO::File::Util qw(file_exists);
+use File::MoreUtil qw(file_exists);
 use SHARYANTO::Text::Prompt qw(confirm);
 
 our %SPEC;
@@ -135,7 +135,7 @@ App::CreateSparseFile - Create sparse file
 
 =head1 VERSION
 
-This document describes version 0.01 of App::CreateSparseFile (from Perl distribution App-CreateSparseFile), released on 2014-10-11.
+This document describes version 0.02 of App::CreateSparseFile (from Perl distribution App-CreateSparseFile), released on 2014-12-05.
 
 =head1 SYNOPSIS
 
