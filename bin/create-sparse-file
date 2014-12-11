@@ -4,7 +4,7 @@
 # and generated automatically using Dist::Zilla::Plugin::Rinci::ScriptFromFunc version 0.03
 
 our $DATE = '2014-12-11'; # DATE
-our $VERSION = '0.03'; # VERSION
+our $VERSION = '0.04'; # VERSION
 
 use 5.010001;
 use strict;
@@ -31,7 +31,7 @@ create-sparse-file - Create sparse file
 
 =head1 VERSION
 
-This document describes version 0.03 of create-sparse-file (from Perl distribution App-CreateSparseFile), released on 2014-12-11.
+This document describes version 0.04 of create-sparse-file (from Perl distribution App-CreateSparseFile), released on 2014-12-11.
 
 =head1 SYNOPSIS
 

@@ -2,7 +2,7 @@ NAME
     App::CreateSparseFile - Create sparse file
 
 VERSION
-    This document describes version 0.03 of App::CreateSparseFile (from Perl
+    This document describes version 0.04 of App::CreateSparseFile (from Perl
     distribution App-CreateSparseFile), released on 2014-12-11.
 
 SYNOPSIS
