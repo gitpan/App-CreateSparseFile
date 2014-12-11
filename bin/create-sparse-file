@@ -3,8 +3,8 @@
 # Note: This script is a CLI interface to Riap function /App/CreateSparseFile/create_sparse_file
 # and generated automatically using Dist::Zilla::Plugin::Rinci::ScriptFromFunc version 0.03
 
-our $DATE = '2014-12-05'; # DATE
-our $VERSION = '0.02'; # VERSION
+our $DATE = '2014-12-11'; # DATE
+our $VERSION = '0.03'; # VERSION
 
 use 5.010001;
 use strict;
@@ -31,7 +31,7 @@ create-sparse-file - Create sparse file
 
 =head1 VERSION
 
-This document describes version 0.02 of create-sparse-file (from Perl distribution App-CreateSparseFile), released on 2014-12-05.
+This document describes version 0.03 of create-sparse-file (from Perl distribution App-CreateSparseFile), released on 2014-12-11.
 
 =head1 SYNOPSIS
 
@@ -148,7 +148,7 @@ To activate bash completion for this script, put:
 
 in your bash startup (e.g. C<~/.bashrc>). Your next shell session will then recognize tab completion for the command. Or, you can also directly execute the line above in your shell to activate immediately.
 
-You can also install L<App::BashCompletionProg> which makes it easy to add completion for Perinci::CmdLine-based scripts. After you install the module and put C<. ~/.bash-complete-prog> (or C<. /etc/bash-complete-prog>), you can just run C<bash-completion-prog> and the C<complete> command will be added to your C<~/.bash-completion-prog>. Your next shell session will then recognize tab completion for the command.
+You can also install L<App::BashCompletionProg> which makes it easy to add completion for Getopt::Long::Complete-based scripts. After you install the module and put C<. ~/.bash-complete-prog> (or C<. /etc/bash-complete-prog>), you can just run C<bash-completion-prog> and the C<complete> command will be added to your C<~/.bash-completion-prog>. Your next shell session will then recognize tab completion for the command.
 
 =head2 fish
 
